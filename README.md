@@ -1,4 +1,4 @@
-# PublicScripts
+# PublicScripts / GetAllInboxRules
 This script uses EWS Managed API, which means this must be enabled on the target mailbox in order to succeed. For the Managed API to be used, there needs to exist an AAD Application with EWS delegated only permissions, which will be used for OAUTH authentication. The reason for using delegation permission only, is so that the script can only be executed against the authenticated mailbox and not for others, which would be a security concern.
 To facilitate the script execution, I have created a multi-tenant application with EWS Permission only, but if the customer wants a self owned application, then it can be changed in the parameters.
 
