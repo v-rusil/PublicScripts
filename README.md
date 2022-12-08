@@ -12,6 +12,7 @@ The OAUTH Authentication  dialog will be displayed, and the user will need to gi
 ![image](https://user-images.githubusercontent.com/38019684/206328637-770ca979-a489-4543-9665-da919943f2a0.png)
 
 If no further parameters are specified, the default multi-tenant application will be used (d82d66ce-348b-4a2c-a8a4-44f8649ab242), and the tenant ID will be automatically detected, however, a second prompt will appear, as the script will need to connect to Azure AD to get this value.
+
 ![image](https://user-images.githubusercontent.com/38019684/206328734-112b64f5-9a14-40f5-9484-ffa81057daf8.png)
 
 
